@@ -1,5 +1,37 @@
 # Change Log
 
+## v2.33.0
+
+* Fix missing AVD directory in `ubuntu-24.04` runner. - [415](https://github.com/ReactiveCircus/android-emulator-runner/pull/415)
+* Update SDK build tools to `35.0.0`, update SDK command-line tools to `16.0`. - [#356](https://github.com/ReactiveCircus/android-emulator-runner/pull/356)
+* Stop changing owner of the SDK directory. - [406](https://github.com/ReactiveCircus/android-emulator-runner/pull/406) [#409](https://github.com/ReactiveCircus/android-emulator-runner/pull/409)
+* Upgrade to latest npm dependencies. - [#401](https://github.com/ReactiveCircus/android-emulator-runner/pull/401)
+
+## v2.32.0
+
+* Add `port` parameter for customizing the emulator port to use. - [#383](https://github.com/ReactiveCircus/android-emulator-runner/pull/383)
+
+
+## v2.31.0
+
+* Support setting `VanillaIceCream` as `api-level`. - [#378](https://github.com/ReactiveCircus/android-emulator-runner/pull/378)
+* Install `platforms` for the specified `api-level`. - [#384](https://github.com/ReactiveCircus/android-emulator-runner/pull/384)
+
+## v2.30.1
+
+* Run action on Node 20. - [#371](https://github.com/ReactiveCircus/android-emulator-runner/pull/371)
+
+## v2.30.0
+
+* Update to Node 20. - [#369](https://github.com/ReactiveCircus/android-emulator-runner/pull/369)
+
+## v2.29.0
+
+* Fixed emulator download URL. - [#343](https://github.com/ReactiveCircus/android-emulator-runner/pull/343)
+* Upgrade to latest npm dependencies. - [#347](https://github.com/ReactiveCircus/android-emulator-runner/pull/347) [#355](https://github.com/ReactiveCircus/android-emulator-runner/pull/355)
+* Update SDK command-line tools to `11.0`. - [#356](https://github.com/ReactiveCircus/android-emulator-runner/pull/356)
+* Update SDK build tools to `34.0.0`. - [#356](https://github.com/ReactiveCircus/android-emulator-runner/pull/356)
+
 ## v2.28.0
 
 * Add `emulator-boot-timeout` to support configuring maximum time waiting for emulator boot. - [#326](https://github.com/ReactiveCircus/android-emulator-runner/pull/326)
